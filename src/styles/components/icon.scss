@@ -1,0 +1,75 @@
+$blip-width: 18px;
+$blip-height: 18px;
+$background-size: 18px;
+
+.icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-size: 22px 22px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  vertical-align: middle;
+
+  &--pie {
+    background-image: url("../../icons/pie.svg");
+  }
+
+  &--question {
+    background-image: url("../../icons/question.svg");
+  }
+
+  &--overview {
+    background-image: url("../../icons/overview.svg");
+  }
+
+  &--search {
+    background-image: url("../../icons/search.svg");
+  }
+
+  &--back {
+    background-image: url("../../icons/back.svg");
+  }
+
+  &--close {
+    background-image: url("../../icons/close.svg");
+  }
+
+  &--blip_new {
+    background-image: url('../../icons/blip_new.svg');
+    width: $blip-width;
+    height: $blip-height;
+    background-size: $background-size;
+  }
+
+  &--blip_changed {
+    background-image: url('../../icons/blip_changed.svg');
+    width: $blip-width;
+    height: $blip-height;
+    background-size: $background-size;
+  }
+
+  &--blip_default {
+    background-image: url('../../icons/blip_default.svg');
+    width: $blip-width;
+    height: $blip-height;
+    background-size: $background-size;
+  }
+
+  &--blip_recomended {
+    background-image: url('../../icons/blip_recomended.svg');
+    width: $blip-width;
+    height: $blip-height;
+    background-size: $background-size;
+  }
+
+  &--filter {
+    background-image: url("../../icons/filter.svg");
+  }
+
+  &--color_ring{
+    border-radius: 50%;
+    width: $blip-width;
+    height: $blip-height;
+  }
+}
